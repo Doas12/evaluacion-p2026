@@ -69,6 +69,13 @@ img{
   font-size: 2rem;
 }
 
+.texto-azul{
+  color: #003366;
+}
+.texto-amarillo{
+  color: #FFAA00;
+}
+
 .texto-blanco{
   color: white;
 }
@@ -90,4 +97,44 @@ img{
   margin: 5rem 0;
 }
 
+.valores{
+  background-color: rgba(5, 25, 112, 0.527);
+}
+
+.valores-contenido{
+  background-color: white;
+  border-radius: 1.6rem;
+  padding: 4rem;
+}
+
+.contenido{
+  display: flex;
+  justify-content: space-between;
+}
+
+.sobre-nosotros{
+  display: flex;
+  
+}
+.sobre-nosotros div{
+  padding: 3rem;
+  flex-basis: 50%;
+}
+
+footer{
+  background-color: #003366;
+}
+
+.contenido-superior{
+  color: white;
+  display: flex;
+}
+
+.footer-enlace a{
+  text-decoration: none;
+  color: white;
+}
+.contenido-inferior a{
+  color: white;
+}
 

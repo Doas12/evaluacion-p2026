@@ -1,3 +1,140 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
 }
+
+img{
+  max-width: 100%;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navitems{
+  display: flex;
+  
+}
+
+.navitems li{
+  list-style: none;
+  margin-left:1.5rem;
+}
+
+.navitems li a{
+  text-decoration: none;
+  color: #003366;
+}
+
+.container{
+  width: 140rem;
+  margin: 0 auto;
+}
+
+.logo-navbar{
+  width: 10rem;
+  height: 10rem;
+}
+
+.btn{
+  text-decoration: none;
+  color: #003366;
+  padding: 1.5rem 2rem;
+  border-radius: 9rem;
+}
+
+.btn-amarillo{
+  background-color: #FFAA00;
+}
+
+.hero{
+  background-image: url(../img/banner.png);
+  height: 50rem;
+  background-position: center;
+  background-size: cover;
+}
+
+.subtitulo{
+  color: #FFAA00;
+  font-size: 2rem;
+}
+
+.texto-azul{
+  color: #003366;
+}
+.texto-amarillo{
+  color: #FFAA00;
+}
+
+.texto-blanco{
+  color: white;
+}
+
+.texto-verde{
+  color: #A3D9A5;
+}
+
+.btn-blanco{
+  color:white;
+  border: solid white;
+}
+
+.texto-header{
+  padding: 10rem 0;
+}
+
+.texto-header p, h1,h2,div{
+  margin: 5rem 0;
+}
+
+.valores{
+  background-color: rgba(5, 25, 112, 0.527);
+}
+
+.valores-contenido{
+  background-color: white;
+  border-radius: 1.6rem;
+  padding: 4rem;
+}
+
+.contenido{
+  display: flex;
+  justify-content: space-between;
+}
+
+.sobre-nosotros{
+  display: flex;
+  
+}
+.sobre-nosotros div{
+  padding: 3rem;
+  flex-basis: 50%;
+}
+
+footer{
+  background-color: #003366;
+}
+
+.contenido-superior{
+  color: white;
+  display: flex;
+}
+
+.footer-enlace a{
+  text-decoration: none;
+  color: white;
+}
+.contenido-inferior a{
+  color: white;
+}
+

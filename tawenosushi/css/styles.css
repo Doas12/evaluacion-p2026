@@ -6,7 +6,7 @@
 /* Reset base */
 html {
   box-sizing: border-box;
-  font-size: 62.5%;
+  font-size: 62.5%
 }
 
 *,
@@ -22,4 +22,161 @@ img {
 /* Tu código va aquí */
 body {
   font-size: 1.6rem;
+  color: #555555;
+  
+}
+
+
+.header{
+  background-color: #1a1a1a;
+  color: white;
+}
+.header span{
+  color: rgba(247, 16, 16, 0.712);
+}
+.header p{
+  color: #555555;
+}
+
+
+.titulo{
+  color: rgb(0, 0, 0);
+  font-size: 1.6rem;
+  padding: 4rem;
+}
+
+.menu{
+  background-color: white;
+  display: flex;
+  flex-direction:row ;
+  justify-content: space-between;
+  margin: 1.6rem;
+
+
+}
+
+.lista{
+  display: flex;
+  gap: 4rem;
+  list-style: none;
+
+}
+
+.lista a{
+  color: #555555;
+}
+
+.btn-inicio{
+  display: flex;
+  height: 5rem;
+  width: 150px;
+  background-color: rgba(247, 16, 16, 0.712);
+  margin-left: 5rem;
+  border-radius: 1rem;
+  align-items: center;
+  justify-content: center;
+  
+}
+.sobre-nosotros{
+  padding: 4.8rem;  
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  
+  
+}
+
+
+.mainMenu{
+  display: flex;
+  margin: 4.6rem 4.6rem;
+  gap: 5rem;
+}
+
+.fotomenu{
+  height: 20rem;
+}
+
+.comidaMenu{
+  border:  #e0ddd5 solid;
+  border-radius: 1rem;
+  
+}
+
+
+.comidaMenu h3, p{
+  color:  #555555;
+}
+.comidaMenu span{
+  color:  #c0392b;
+}
+
+
+
+.pedidos{
+  background-color: #f2f0eb;
+  display: flex;
+}
+
+.pedidos li{
+  list-style: none;
+}
+
+.sushi{
+  height: 6rem;
+}
+.inf{
+  font-size: 1.6rem;
+  display: flex;
+  border-radius: 6rem;
+  border: #e0ddd5 solid;
+  align-items: center;
+  gap: 2.4rem;
+  padding: 1.6rem;
+}
+.contacto{
+  display: flex;
+}
+
+.fondo-contacto{
+  background-color: #f2f0eb;
+}
+.fondo-contacto h2, p{
+  color: #555555;
+}
+
+
+.contacto{
+  display: flex;
+}
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+
+}
+
+.footer{
+  background-color: #111111;
+}
+
+.footer h3, h4{
+  color: #ffffff;
+  font-size:  1.8rem;
+}
+
+.footer p{
+   color: #888888;
+   font-size:  1.6rem;
+}
+
+.locales{
+  display: flex;
+  justify-content: space-between;
+}
+
+.pie{
+  display: flex;
+  justify-content: center;
 }

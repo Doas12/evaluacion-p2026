@@ -26,57 +26,77 @@ body {
   
 }
 
-
-.header{
-  background-color: #1a1a1a;
-  color: white;
-}
-.header span{
-  color: rgba(247, 16, 16, 0.712);
-}
-.header p{
-  color: #555555;
-}
-
-
-.titulo{
-  color: rgb(0, 0, 0);
-  font-size: 1.6rem;
-  padding: 4rem;
-}
-
 .menu{
-  background-color: white;
+  background-color: #ffffff;
   display: flex;
   flex-direction:row ;
   justify-content: space-between;
-  margin: 1.6rem;
-
-
+  align-items: center;
 }
+
+
+.header{
+  font-size: 1.6rem;
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
+  border-bottom: 0.1rem solid #e0ddd5;
+}
+
+.fondo-inicio{
+  background-color: #000000;
+}
+
+.header span{
+  color: #c0392b;
+  font-size: 4rem;
+}
+.header p{
+  color:#888888;
+  font-size: 1.6rem;
+  margin-bottom: 2.8rem;
+}
+
+.header h1{
+  margin-left: 3rem;
+  color: #ffffff;
+  font-size: 4rem;
+}
+
+.Logo{
+  color: #1a1a1a;
+  font-size: 1.6rem;
+  padding: 4rem;
+  text-decoration: none;
+}
+
 
 .lista{
   display: flex;
-  gap: 4rem;
+  font-size: 1.4rem;
+  gap: 2.8rem;
   list-style: none;
-
+  padding-right: 5rem;
 }
 
 .lista a{
+  text-decoration: none;
   color: #555555;
 }
 
+
 .btn-inicio{
-  display: flex;
-  height: 5rem;
-  width: 150px;
-  background-color: rgba(247, 16, 16, 0.712);
+  display: inline-block;     
+  text-decoration: none;         
+  background-color: #c0392b;     
+  color: #ffffff;               
+  font-size: 1.4rem;             
+  padding: 1rem 2.4rem;          
+  border-radius: 0.6rem;         
   margin-left: 5rem;
-  border-radius: 1rem;
-  align-items: center;
-  justify-content: center;
-  
+  margin-bottom: 2rem;             
 }
+
+
 .sobre-nosotros{
   padding: 4.8rem;  
   background-color: #ffffff;
@@ -88,9 +108,22 @@ body {
 
 
 .mainMenu{
-  display: flex;
   margin: 4.6rem 4.6rem;
-  gap: 5rem;
+  background-color: #ffffff;
+}
+
+.titulo-menu{
+  color: #1a1a1a;
+  font-size: 2.6rem;
+  margin-bottom: 4rem;
+  margin-left: 30rem;
+}
+
+.tarjetas{
+  display: flex;
+  border-radius: 1rem;
+  gap:4rem;
+  justify-content: center;
 }
 
 .fotomenu{
@@ -100,15 +133,22 @@ body {
 .comidaMenu{
   border:  #e0ddd5 solid;
   border-radius: 1rem;
-  
+  padding: 1.6rem;
 }
 
 
-.comidaMenu h3, p{
-  color:  #555555;
+.comidaMenu h3{
+  color: #1a1a1a;
+  font-size: 1.8rem;
+}
+
+.comidaMenu p{
+  color:#555555;
+  font-size: 1.4rem;
 }
 .comidaMenu span{
   color:  #c0392b;
+  font-size: 1.6rem;
 }
 
 
@@ -116,15 +156,59 @@ body {
 .pedidos{
   background-color: #f2f0eb;
   display: flex;
+  padding-top:4.8rem;
+  padding-bottom:4.8rem;
 }
 
 .pedidos li{
+  display: flex;
+  align-items: center;
+  padding: 1.2rem 0;
+  border-bottom: 0.1rem solid #e0ddd5;
   list-style: none;
 }
 
 .sushi{
   height: 6rem;
+  width: 6rem;
+  border-radius: 0.8rem;
 }
+
+.columna-texto{
+  width: 30%;
+  margin-right: 4.8rem;
+}
+
+.columna-texto p{
+  color: #555555;
+  font-size: 1.6rem;
+}
+
+.columna-texto h2, p{
+  margin-left: 4rem;
+}
+
+.lista-pedidos{
+  width: 65%;
+}
+
+.nombre{
+  font-size: 1.6rem;
+  color: #1a1a1a;
+  margin-left: 2rem;
+}
+
+.precio{
+  margin-left: auto;
+  color: #c0392b;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+
+
+
+
 .inf{
   font-size: 1.6rem;
   display: flex;
@@ -134,10 +218,134 @@ body {
   gap: 2.4rem;
   padding: 1.6rem;
 }
-.contacto{
+
+.seccion-sobre-nosotros{
+  background-color: #ffffff;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4.8rem 0;
 }
 
+.columna-info,
+.columna-estadisticas{
+  width: 45%;
+}
+
+.columna-info p{
+  color:#555555;
+  font-size: 1.6rem;
+}
+.columna-info h2{
+  margin-left: 4rem;
+}
+
+.columna-estadisticas{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 0.1rem solid #e0ddd5;
+  border-radius: 1rem;
+}
+
+.numero-est{
+  color: #1a1a1a;
+  font-size: 3rem;
+  font-weight: bold;
+
+}
+
+.desc-est{
+  color: #555555;
+  font-size: 1.3rem;
+}
+
+.caja-estadistica{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.4rem 1.6rem;
+}
+
+
+.desc-est{
+  color: #555555;
+  font-size: 1.3rem;
+}
+
+
+.fondo-contacto{
+  background-color: #f2f0eb;
+  padding: 4.8rem 0;
+}
+.contacto{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+.contacto-info{
+  width: 40%;
+}
+
+.contacto-info p,
+.contacto-info li{
+  color: #555555;
+  font-size: 1.6rem;
+}
+
+.contacto-info p{
+  margin-bottom: 1.6rem;
+}
+.contacto-info ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contacto-info li{
+  margin-bottom: 1rem;
+}
+
+.formulario{
+  width: 50%;
+  background-color: #ffffff;
+  border: 0.1rem solid #e0ddd5;
+  border-radius: 1rem;
+  padding: 2.4rem;
+}
+
+.formulario-cuerpo{
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario-cuerpo label{
+  color: #555555;
+  font-size: 1.4rem;
+  margin-bottom: 0.6rem;
+}
+
+.form-input{
+  width: 100%;
+  box-sizing: border-box;
+  border: 0.1rem solid #e0ddd5;
+  padding: 1rem;
+  border-radius: 0.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.btn-enviar{
+  background-color: #c0392b;
+  color: #ffffff;
+  padding: 1.2rem;
+  border-radius: 0.6rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  cursor: pointer;
+}
 .fondo-contacto{
   background-color: #f2f0eb;
 }
@@ -146,37 +354,58 @@ body {
 }
 
 
-.contacto{
-  display: flex;
-}
-
-.formulario{
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-
-}
 
 .footer{
   background-color: #111111;
+  padding-top: 3.6rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
-.footer h3, h4{
+.footer h3{
   color: #ffffff;
   font-size:  1.8rem;
+  margin-bottom: 1rem;
+}
+.footer h4{
+  color: #ffffff;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
 }
 
-.footer p{
+.footer p,
+.footer li{
    color: #888888;
    font-size:  1.6rem;
+   line-height: 1.5;
 }
 
+.footer ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
 .locales{
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto 3rem auto;
 }
 
 .pie{
   display: flex;
   justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-top: 0.1rem solid #222222;
+  padding-top: 1.6rem;
+}
+
+.pie p{
+  color: #888888;
+  font-size: 1.3rem;
+  margin: 0;
 }

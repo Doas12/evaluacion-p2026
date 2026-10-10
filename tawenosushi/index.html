@@ -18,37 +18,41 @@
 
   <!-- ===================== INICIO HEADER ===================== -->
   <header class="header">
-    
-      <nav class="menu">
-        <div>
-          <a  class="titulo" href="#">TAWENO SUSHI</a>
-        </div> 
-        <div>
-          <ul class="lista">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Menú</a></li>
-            <li><a href="#">Nosotros</a></li>
-            <li><a href="#">Contacto</a></li>
-          </ul>
-        </div>
-      </nav>
+      <div class="fondo-inicio">
+        <nav class="menu">
+          <div>
+            <a class="Logo" href="#">TAWENO SUSHI</a>
+          </div> 
+          <div>
+            <ul class="lista">
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Menú</a></li>
+              <li><a href="#">Nosotros</a></li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </div>
+        </nav>
 
-    <h1>Sabor japonés<br><span>en cada pieza</span></h1>
-    <p>Ingredientes frescos del día. Tradición y técnica en cada preparación.</p>
-    <div class="btn-inicio">
-      <as href="#">Ver menú</a>
-    </div>
+        
+        <h1>Sabor japonés<br><span>en cada pieza</span></h1>
+        <p>Ingredientes frescos del día. Tradición y técnica en cada preparación.</p>
+        <div class="btn-inicio">
+          <as href="#">Ver menú</a>
+        </div>
+      </div>
+      
   </header>
 
   <!-- ===================== FIN HEADER ===================== -->
 
 
   <!-- ===================== INICIO NUESTRO MENÚ ===================== -->
-  <main>
-    <div class="mainMenu">
+  <main class="mainMenu">
+
+    <h2 class="titulo-menu">Nuestro menú</h2>
+    
+    <div class="tarjetas">
       <article class="comidaMenu">
-        <h2>Nuestro menú</h2>
-        
         <img class= "fotomenu" src="../tawenosushi/img/sushi1.jpg" alt="Nigiri Salmón">
         <h3>Nigiri Salmón</h3>
         <p>Arroz con salmón fresco y wasabi.</p>
@@ -74,26 +78,27 @@
 
   <!-- ===================== INICIO LOS MÁS PEDIDOS ===================== -->
   <section class="pedidos">
-    <article>
+    <article class="columna-texto">
       <h2>Los más pedidos</h2>
       <p>Los platos que nuestros clientes eligen semana a semana.</p>
     </article>
-    <article>
-      <ul class">
+
+    <article class="lista-pedidos">
+      <ul>
         <li>
           <img class="sushi"src="../tawenosushi/img/sushi1.jpg" alt="Nigiri Salmón">
-          <span>Nigiri Salmón</span>
-          <span>$4.990</span>
+          <span class="nombre">Nigiri Salmón</span>
+          <span class="precio">$4.990</span>
         </li>
         <li>
           <img class="sushi" src="../tawenosushi/img/sushi2.jpg" alt="Roll Spicy Tuna">
-          <span>Roll Spicy Tuna</span>
-          <span>$6.490</span>
+          <span class="nombre">Roll Spicy Tuna</span>
+          <span class="precio">$6.490</span>
         </li>
         <li>
           <img class="sushi"src="../tawenosushi/img/sushi3.jpg" alt="Tempura Roll">
-          <span>Tempura Roll</span>
-          <span>$6.990</span>
+          <span class="nombre">Tempura Roll</span>
+          <span class="precio">$6.990</span>
         </li>
       </ul>
     </article>
@@ -103,22 +108,27 @@
 
 
   <!-- ===================== INICIO SOBRE NOSOTROS ===================== -->
-  <section>
-    <article class="sobre-nosotros">
-      <div>
-        <h2>Sobre nosotros</h2>
+  <section class="seccion-sobre-nosotros">
+    <article class="columna-info">
+      <h2>Sobre nosotros</h2>
         <p>En <strong>TAWENO SUSHI</strong> creemos que la gastronomía japonesa es un arte. Trabajamos con ingredientes
-          frescos seleccionados cada día para ofrecerte siempre la mejor experiencia.</p>
+        frescos seleccionados cada día para ofrecerte siempre la mejor experiencia.</p>
+    </article>
+
+    <article class="columna-estadisticas">
+
+      <div class="caja-estadistica">
+        <span class="numero-est">8+</span>
+        <small class="desc-est">Años</small>
       </div>
-      <div class="inf">
-        <span>8+</span>
-        <small>Años</small>
 
-        <span>2</span>
-        <small>Locales</small>
-
-        <span>40+</span>
-        <small>Productos</small>
+      <div class="caja-estadistica">
+        <span class="numero-est">2</span>
+        <small class="desc-est">Locales</small>
+      </div>
+      <div class="caja-estadistica">
+        <span class="numero-est">40+</span>
+        <small class="desc-est">Productos</small>
       </div>
     </article>
   </section>
@@ -128,25 +138,28 @@
   <!-- ===================== INICIO CONTACTO ===================== -->
   <section class="fondo-contacto">
     <article class="contacto">
-      <div>
-      <h2>Contáctanos</h2>
-      <p>Reservas o consultas. Respondemos en menos de 24 horas.</p>
-      <ul>
-        <li>Teléfono: +56 9 1234 5678</li>
-        <li>Correo: hola@tawenosushi.cl</li>
-      </ul>
+
+      <div class="contacto-info">
+        <h2>Contáctanos</h2>
+        <p>Reservas o consultas. Respondemos en menos de 24 horas.</p>
+        <ul>
+          <li>Teléfono: +56 9 1234 5678</li>
+          <li>Correo: hola@tawenosushi.cl</li>
+        </ul>
       </div>
+
       <div class="formulario">
-        <article>
-          <form action="#" method="post">
-            <label for="nombre">Nombre</label>
-            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+  
+        <form action="#" method="post" class="formulario-cuerpo">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" class="form-input">
 
           <label for="mensaje">Mensaje</label>
-          <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..."></textarea>
+          <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..." class="form-input"></textarea>
 
-          <button type="submit">Enviar</button>
+          <button type="submit" class="btn-enviar">Enviar</button>
         </form>
+
       </div>
     </article>
   </section>
